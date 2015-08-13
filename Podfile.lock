@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (2.0.0-beta.1)
+  - GCDWebServer (3.2.5):
+    - GCDWebServer/Core (= 3.2.5)
+  - GCDWebServer/Core (3.2.5)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `swift-2.0`)
+  - GCDWebServer
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: swift-2.0
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: swift-2.0
+
+SPEC CHECKSUMS:
+  Alamofire: 96feccc1e48a735edb92395cf023ba4ed52bdb45
+  GCDWebServer: d0e1b23785e3dfd6c87601323d0f7cae059aab18
+
+COCOAPODS: 0.38.2
