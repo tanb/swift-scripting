@@ -6,6 +6,8 @@ MODULE_NAME = main
 SDK = macosx
 ARCH = x86_64
 
+SCRIPT_FILE = $(CURDIR)/script.swift
+
 XCODE_PATH = /Applications/Xcode.app
 XCODE_BETA_PATH = /Applications/Xcode-beta.app
 SDK_PATH = $(shell xcrun --show-sdk-path --sdk $(SDK))
@@ -49,7 +51,7 @@ run: build-swift
 	$(BUILD_PATH)/$(MODULE_NAME)
 
 runscript:
-	$(SWIFT) -sdk $(SDK_PATH) -I $(SRC_PATH) -F $(ROME_PATH) -Xlinker -rpath -Xlinker $(ROME_PATH) $(SWIFT_FILES)
+	$(SWIFT) -sdk $(SDK_PATH) -I $(SRC_PATH) -F $(ROME_PATH) -Xlinker -rpath -Xlinker $(ROME_PATH) $(SCRIPT_FILE)
 
 shell:
 	$(SWIFT) -sdk $(SDK_PATH) -I $(SRC_PATH) -F $(ROME_PATH) -Xlinker -rpath -Xlinker $(ROME_PATH)
