@@ -5,6 +5,22 @@ Cocoapods (install via gem)
 
 Cocoapods-Rome (install via gem)
 
+## Example
+### Scripts using Alamofire, GCDWebServer.
+
+To run these scripts, you need to build it.
+
+I wrote make.
+
+```
+$ make run
+```
+### Script using SwiftCSV.
+Easy to run one file script. you don't need build it.
+```
+$ make runscript SCRIPT_FILE="csv_script.swift"
+```
+
 ## Makefile
 Switch to Swift2.0 in Xcode-beta.app
 ```
