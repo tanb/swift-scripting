@@ -3,23 +3,32 @@ PODS:
   - GCDWebServer (3.2.5):
     - GCDWebServer/Core (= 3.2.5)
   - GCDWebServer/Core (3.2.5)
+  - SwiftCSV (0.1.2)
 
 DEPENDENCIES:
   - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `swift-2.0`)
   - GCDWebServer
+  - SwiftCSV (from `https://github.com/naoty/SwiftCSV.git`, tag `swift-2.0`)
 
 EXTERNAL SOURCES:
   Alamofire:
     :git: https://github.com/Alamofire/Alamofire.git
+    :tag: swift-2.0
+  SwiftCSV:
+    :git: https://github.com/naoty/SwiftCSV.git
     :tag: swift-2.0
 
 CHECKOUT OPTIONS:
   Alamofire:
     :git: https://github.com/Alamofire/Alamofire.git
     :tag: swift-2.0
+  SwiftCSV:
+    :git: https://github.com/naoty/SwiftCSV.git
+    :tag: swift-2.0
 
 SPEC CHECKSUMS:
   Alamofire: 96feccc1e48a735edb92395cf023ba4ed52bdb45
   GCDWebServer: d0e1b23785e3dfd6c87601323d0f7cae059aab18
+  SwiftCSV: 02827538421b00b5af3fba80ed32f8918554c757
 
 COCOAPODS: 0.38.2

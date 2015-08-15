@@ -23,6 +23,8 @@ SWIFT = $(shell xcrun -f swift)
 CLANG = $(shell xcrun -f clang)
 POD = $(shell type -p pod)
 
+all:
+
 switch-beta:
 	sudo xcode-select -s $(XCODE_BETA_PATH)/Contents/Developer/
 	xcrun swift --version
