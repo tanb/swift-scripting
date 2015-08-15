@@ -5,12 +5,12 @@ Cocoapods (install via gem)
 Cocoapods-Rome (install via gem)
 
 ## Makefile
-Switch Swift2.0
+Switch to Swift2.0 in Xcode-beta.app
 ```
 $ make switch-beta
 ```
 
-Switch current version
+Switch to current version Swift 1.2 (It can't run this repo's scripts. These are written in 2.0.)
 ```
 $ make switch-current
 ```
