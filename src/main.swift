@@ -5,10 +5,6 @@ let person = Person(name: "tanB")
 person.say()
 person.getRequest()
 
-// while true {
-//     NSRunLoop.currentRunLoop().runUntilDate(NSDate(timeIntervalSinceNow: 1))
-// }
-
 autoreleasepool {
     let webServer = GCDWebServer()
     let response = "<html><body><p>Hello World</p></body></html>"
