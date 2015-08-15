@@ -1,7 +1,8 @@
-# swift-scripting
+# 🐁swift-scripting
 
 ## Requisites
 Cocoapods (install via gem)
+
 Cocoapods-Rome (install via gem)
 
 ## Makefile
